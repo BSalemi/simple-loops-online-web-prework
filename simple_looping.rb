@@ -36,9 +36,9 @@ def until_iterator(number_of_times)
 end
 
 def for_iterator(number_of_times)
-  # code your solution here using the "for" keyword
-  # remember that `for` requires a range of numbers. How can we turn our number into a range?
-
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-
+  number_of_times = 1..7
+  for times in number_of_times do
+    phrase = "Welcome to Flatiron School's Web Development Course!"
+    puts phrase
+  end
 end
